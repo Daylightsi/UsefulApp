@@ -10,3 +10,36 @@
   text-align: center;
   font-family: "Oswald", Arial;
 }
+
+.Container_Useful {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.Useful_Item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.2s;
+}
+
+.Useful_Item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.Clock_Text {
+  font-size: 18px;
+  margin: 10px 0;
+  text-align: center;
+}
+
+.Useful_Item:active {
+  transform: scale(1.05);
+}
