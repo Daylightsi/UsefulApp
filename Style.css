@@ -1,6 +1,6 @@
 @font-face{
   font-family: Oswalt-bolt;
-  src: Fonts/Oswalt-Bold.ttf;
+  src: url(Fonts/Oswalt-Bold.ttf);
   font-weight: bold;
 }
 
