@@ -43,3 +43,7 @@
 .Useful_Item:active {
   transform: scale(1.05);
 }
+
+body{
+  color: #531553;
+}
