@@ -1,4 +1,8 @@
+@font-face{
+  font_family: Oswalt_bolt
+  src: Fonts/Oswalt-Bold.ttf
+}
+
 .TITLE{
   text-align: center;
-  
 }
